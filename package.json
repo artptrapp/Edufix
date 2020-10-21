@@ -1,0 +1,22 @@
+{
+  "name": "edufix2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artptrapp/Edufix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artptrapp/Edufix/issues"
+  },
+  "homepage": "https://github.com/artptrapp/Edufix#readme",
+  "dependencies": {
+    "firebase-admin": "^9.2.0"
+  }
+}
