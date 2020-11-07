@@ -1,4 +1,5 @@
 const admin = require('firebase-admin')
+const { danger, warn } = require('../utils/printHelper')
 
 exports.getConfig = (codename) => {
     try {
@@ -8,6 +9,8 @@ exports.getConfig = (codename) => {
             databaseURL: `https://exams-${codename}.firebaseio.com`
         }
     } catch (e) {
-        throw new Error('Invalid environment provided')
+        danger('Invalid environment provided: ' + codename)
+        warn(`Did you forget to get ${codename} Service Account from Firebase?`)
+        process.exit()
     }
 }

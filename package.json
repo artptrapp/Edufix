@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/artptrapp/Edufix#readme",
   "dependencies": {
-    "firebase-admin": "^9.2.0"
+    "firebase-admin": "^9.2.0",
+    "readline-sync": "^1.4.10"
   }
 }
